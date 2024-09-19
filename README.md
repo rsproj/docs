@@ -1,4 +1,4 @@
-#  All this directory is going into Cubic terminal page
+#  ~ All this directory is going into Cubic terminal page
 
 ## ./script.dev - Scripts used for development automation
 	
