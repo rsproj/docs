@@ -1,0 +1,53 @@
+OK - update-usrs-dirs-gtk-
+OK - setup de aiterm
+OK - ** offlinezar o setup de DE minima xfce4
+OK - atualizar no setup os modulos globais de rsp.nodejs
+OK - setup remove mvp player
+	- nÃO pode, porque é perdep do Spoxf
+    OK - setup de bins
+    OK - setup de /etc/bash.bashrc
+- terminar setup de web-greeter
+- bug do nodejs inao instalar modulo global tentar fixar colocando em usr/local se nao pega, usa um prepacked tagz
+- definir 59como vai ser o devops do codespace do projeto e sua forma de integração com o cubic
+- bota os script de init SKEL numa pasta .init
+- script de adduser wrappered para sbin
+- script de adduser wrappered para sbin
+- fazer chrome pega nos outro user (falta copletaro chromefx.sh script para ele setar padrão a dir downloads)
+- script de adduser de teste npm dev script
+- ver se da pra builda o gearlever com pasta padrao customizada 
+- xdg-screenshooter da uma olhada
+- faze 3 bground rapidão
+- cli de adicioanr e gerenciar dns nameservers system-wide
+- distinguir e implementar/separar script de setup do SYSTEMA no cubic e setup de new user wizard 
+- criar comando sbin q adicione um user ao visudo
+- dps disso adiantar o lance de colocar as aopp atual do gearlever no systemwide so copiando os do local 
+- terminar setup e escrever howto - istala o fodendo privoxy
+- default browsser
+- refatorar o cli de contorle de proxy usando as var $HTT*
+- estudar as subdir de usr
+- script de toogle.proxy no sbin, usado pelo systemd e por cli tb com parametro
+- script de sudoar um user BOTA NO SBIN aquele script do .rsp
+OK - CONSETTA O SETUP SCRIPT DE GEARLEVER P APAGAR AS 3 DIRS MALDITAS
+OK - VHOME DE GEARLEVER NO .CONFIG
+	- deixei como ta mermo: na .var
+OK - compactor uncompactor gui toool
+	-  Xarquiver, por enquanto
+OK - ajustar aplicacoes basicas de sistema
+OK - trnasformar setup de greeter em .deb
+OK (INDO) - bash function em task/ q seja uma cli q o cara passa  o numero da funcao de setup e ele roda ela
+- ajeitar servicos de spoof e ddns interno (opcao deixar em bash q tava de boa pelo menos a parte de spoof)
+
+- fazer hyper abrir na pasta
+    * resolvi adicionando widget de right click do thunar
+- ver gestor de energia, brilho e tela
+    * o xfce4-power-manager
+    
+- ver onde fica o system-wde bashrc para se for o caso eu querer um namespace diferente em usr adicionar la s siib sin
+    * decidi por nas subtastas comuns de /usr
+
+- apps default .deb customizado icone e CLI name
+    - chrome -  rsp.Chroxf - OK
+    - sublime - rsp.Sublxf - ok
+    - codium -  rsp.Codexf - OK
+    - spotube - rsp.Spotxf - OK
+    - aqemu -   rsp.Qvmxf - OK 

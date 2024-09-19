@@ -1,0 +1,72 @@
+- Conceitos
+
+    foco em automacao de tarefas
+    intrgração de chatgpt, google e github
+    for autodocumentation and dybnamic doc
+    foco em sincronização de backup e seguranca de dados
+    um sistema operacional para programadores made with nodejs based shell and terminaL
+    !!! use more de files interface for all makes it clean and minimalist and focus aimed
+
+- Pacotes debian essenciais
+
+    - libfuse2
+    - libfuse3-3
+    - libappimage1.0abi1 
+    - libappimage-dev
+
+- System native presets:
+
+    - preset de pacotes e serviços de performance
+
+- Apps nativos/padrão
+
+    arquivos - Filestron.js
+    terminal - hyper.js
+    browser - chromeDev.js
+    configs propria - com nodeGUI
+    app padrao de gestao de apps = GearLever built
+
+- Servicos nativos/padrão
+
+    tecnologia tap tap tap
+    e taaaaaaap taaap em fn...
+
+- Filesystem
+
+    que tenha ordenacao pelo tamanho dos elementos da pasta
+    system file de usuário enxuto e shell de explorer design minimalista e focado em focu e facil de usar
+
+- Tweaks para continuedade de desenvolvimento
+
+    - e so usar o PKG pra compilar um script qualquer em uma bin de sistema
+
+- Tweaks mouse:
+
+    para instalar pacote debian abrindo um processo no terminal visualizavel e se autodestruir em seguida (acho q exec da conta disso)
+    para instalar pacote Appimage abrindo um processo no terminal visualizavel e se autodestruir em seguida (acho q exec da conta disso)
+    para instalar pacote Windows abrindo um processo no terminal visualizavel e se autodestruir em seguida (acho q exec da conta disso)
+    de moyse abrir com sudo
+    twaek mouse de instalar .appimage
+    tweak novo projecto project/code typo etc tal
+    dir da opcao de iniciar projetos npm, de empacotar, isso e aquilo
+    ideia de tagetizacao no wiget de click direitoprefixacao, categorizacao
+
+- Tweaks extras:
+
+    funcao de duplicar os apps images builds ddo whatsapp WHACC
+    auto registro de buulde env packages por alguma cli script q maque-a
+    um app terminal de taskss
+    prefix wine em @space
+    ***** backkup de chaves do sistema
+    comando de search no google by shell
+    arquivo de json configurando bootstrap of your enrivonment
+    comando tocar musica by shell integracao com spotube
+    comando de instalacao de all image
+    atralhos para script de cli em desktop 
+
+    idiea documentacao q ta nos estudos de dev linux em json pra renderizar no term pra auxilar na minha jornada
+    *** hacker tools
+
+    integração da pasta /home/rsp/.local/share/applications com uma sidebar no filestron.js
+    a nivel de pacotes nativos e implementacoes JS tb por user ou system
+    user shell comands placed at a special dirs gonna be disposable

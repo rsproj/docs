@@ -1,0 +1,65 @@
+01~
+    - a user-dirs.dirs (a nivel de user) do KDE da apply automatico acho q atraves de uma daemon
+    - ao contrario do GNOME que precisava alem de editar, soltar o comando > xdg-updata-user-dirs && xdg-updata-gtk-user-dirs
+
+02~
+    - echo $XDG_SESSION_TYPE
+    - Se a resposta for "X11", então você está usando Xorg. 
+    - Se aparecer "wayland", então você está usando Wayland.
+
+03~
+    - Mudar o /etc/xdg/user-dirs.default
+    - Reflete na criação do ~/.config/users-dirs.dirs
+    
+05~
+    - olha onde esta las keyring 
+    - .local/share/keyrings 
+    
+06~
+    -
+    - 
+    
+07~
+    -
+    - 
+    
+08~
+    -
+    - 
+    
+09~
+    -
+    - 
+    
+10~
+    -
+    - 
+    
+11~
+    -
+    - 
+    
+12~
+    -
+    - 
+    
+13~
+    -
+    - 
+    
+14~
+    -
+    - 
+    
+15~
+    -
+    - 
+    
+16~
+    -
+    - 
+    
+17~
+    -
+    - 
+    

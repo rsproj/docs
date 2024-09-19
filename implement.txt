@@ -1,0 +1,30 @@
+--- 2.0 # Funções fo filestron.js File Manger
+
+    funcao integrada no filestron.js 
+    listagem de apps renderizado pelo seu .desk file ou uma lib q  renderize pelo .appimage
+
+    -- subheader de DEvelopers
+        -pasta padrao de servicos
+        - ..backend
+        - sbin
+        - funcao de abrir um terminal em baixo de cada interface de pasta aberta se mudar pela GUI a pasta, tb muda p pwd da cli
+            - ideia de abrir estilo widget lateral com background com opacidade reduzida
+                ... ou spwnaa janelinhas tipo widgets bem portaveis sempre no topo
+    ver o app q edita json igual form
+    ver oq fazer com os path de sbin e apps
+    vor mais atalho em cima pra coisa com o coiso
+
+--- 3.0 # Mudança de padrão de pastas de usuário (system-wide) 
+
+    no arquivo user.dirs.dirs
+    a nível de sistema para que também reflita nos novos usuarios criados
+    Objetivo: Criar fs de user modificado
+
+---- 4.0 Comandos e set de comandos para determinado fim.
+
+    * Instalar um .zip
+        - unzip -p mypackage.zip | sudo install -m 755 /dev/stdin /usr/local/bin/myprogram
+        - IDEIA, cria um instalador de pacote baseado nisso
+        - pra instalar binário 
+        - install ./package.bin /usr/local/bin
+

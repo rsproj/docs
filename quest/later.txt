@@ -1,0 +1,75 @@
+Esboço de system app GUI pm2 Services manager
+Esboço de app gui de user preferences/store on top daquela lib que gera form electron a partir de arquivos. Json
+Widget de tornar arquivo executável de instalar , primeiramente no fsys de devolver em
+    + opção ou subwidget de apenas tornar executável e rodar em auxterm
+Widget de gerar projeto Electron boilerplate com vite api
+Widget pointer de resize image
+Widget pointer de mudar cor matriz de imagem
+Wiget pointer de converter png(outras imagens rasterizads) para svg 
+Widget de transformar pasta de projeto HTML5 "vanilla" em apk com promts de xterm
+Launcher de Thunar modo supersu (já tem o Widget, fazer o launcher no padrao de plugin package)
+
+
+
+* Todos com uso do xterm para gerar logs, prompts (ex rescale de img por ex) e run
+* + widget de apenas rodar um script e autodetectar se ele não tá executável ainda, deixar executável
+* todos baseados na chamada de um comando preexistente no prefixo rsp. Ao invés de por o código inline direto no widget
+
+- pm2zar servico de 
+    - privoxy
+
+rsp-de prefix
+
+-- default img editor (VAI SER O PS COM WINE)
+- deixar tema desktop GTK adaitwada dark
+    - e excluir os outros
+        - se pa mudar o nome para plagear KKK
+-- ajustar aplicacoes de devops 100%
+
+
+ - ver como fazer com sources list 
+    - gerar qr com wifi config
+    INDO - task cli logo porra
+    INDO - os arquuivos de user .icon e .icon.profile padrao bora fazer
+
+- ideia de install deb local com repo by sudo apt-get install gdebi-core
+-ve essa porra https://google.github.io/zx/api#question so faz script com isso daqui pra frente 
+- botar os setup de default app update-alternative direto no postinst do .deb e tirar do service
+    * e para compensar reduzir varios scripts de ~fx em um só 
+- setup final de assembly as bins em setup/22.usr.fs
+- fazer um verdadeiro painel de controle com o package.json scripts e modulos dep-dev
+- inntedracao com shadowsocks server automatica
+- internalizar no subsystem so as binarias principais de qemu e qemu-img
+- estilizar aqemu e deixa native
+- documentar apps e tools cli
+- setup do aqemu_0.9.2-3_amd64.deb
+- setup do gradle_4.4.1-18_all.deb
+- implementar driver de fingerprint
+- anotar uma featura futura de gui com a fprint cli de backend
+- documentar scaffolding e interacoes
+- fazer um appzinho gui electron q gera script bash e instala na pasta de user 
+- rspods 0 copia do podman com gui roubada rodando em electron e armaezena os dados do docker no .backend (pq se n me engano fica no sistema)
+- rsp.setup,appendrc no /etc/bash.bashrc solicitar ao chat GPTMERDA um bash para fazer a adiciao com previa remocao;
+- gui de setup de wallpaper minimalist
+- que handla o /etc/wallpps e o ~/@space/@media/@image/@backgrounds
+- por a pasta ~/@space/@media/@image/@screenshots e setar ela por xdg
+- prefix wine muito louco
+- integração facil com proxies por GUI node/electron
+- de nois agr https://github.com/jitsi/jitsi-meet-electron/releases
+- estudar esses arquivos e como setar/home/rsp/.local/share/desktop-directories
+- instala o xdg-prefs e doc
+- estudar essa var XDG_DATA_DIRS
+- escrever sobre windows managers e desktop environments
+- escrever sobre os wayland e x11
+- escrever sobre os "drivers"/compositors para usar esses
+- troca lightdm a web
+- ver o direito do xfce as coisa q da pra mudar la
+- mirro de repo apt
+- mirror de repo npm
+- repo de appimage
+- renomear a bin de nody-greeter rsp.greeter, esconder o .desktop q ele cria
+- implementar as confis backend de servidores ssh de diferentes chaves ssh apontadas abstraidas por comando
+    - + comandos shortcuts de entrar em servers 
+
+- ajeitar a porra do filestorn.js 
+        * (o parametro padrao do projeto original restaurar e fazer q ele abra seletores de arquivos/pastas)

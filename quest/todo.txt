@@ -1,0 +1,260 @@
+https://anyon3.github.io/firejail.html
+https://anyon3.github.io/rules.txt
+https://anyon3.github.io/grub.txt
+https://www.digitalocean.com/community/tutorials/how-to-install-suricata-on-debian-11
+
+
+- life without systemd - by BusyBox site
+https://www.busybox.net/kill_it_with_fire.txt
+
+- otimos ps e service sys daemons para nodejs
+PM2 - porem limita-se a processos nodejs, a nao ser que com alguma outra forma de integracao
+https://github.com/coreybutler/node-linux
+https://github.com/kelektiv/node-cron - seems the best
+https://github.com/node-schedule/node-schedule ---  naao, essse é o BEST
+
+
+xtem.js prjs
+https://github.com/vterm/vterm/blob/master/package.json s ja com integracao electron
+https://github.com/ndabAP/vue-command
+https://github.com/gwangyi/vue-term/tree/master
+https://vue-termui.dev/
+
+------
+
+VER HOJE
+	
+	https://github.com/vterm/vterm/blob/master/package.json s ja com integracao electron
+
+	**** =================================================================
+	e js compilor (electron like)
+	that... its generator module
+	https://turbo.build/repo/docs/guides/generating-code#examplesboilerplate 
+		que seu modulo de genrerator depende desta fodendo lib de scaffolding by promot:
+			https://plopjs.com/documentation/
+				um otimo boilerplate CLI general purose
+		
+	https://github.com/SimulatedGREG/electron-vue
+	https://github.com/max-mapper/menubar - high level way to create menubar desktop applications with electron
+	turn sites into electron app:
+		sudo npm install -g nativefier
+
+- boilerplates electro
+	https://github.com/sindresorhus/generator-electron/tree/main
+ 	sudo npm install -g bozon
+
+	https://github.com/Ghostdar/electron-wifi?tab=readme-ov-file
+
+*** ====================================================================
+
+- subversion as backupp tool
+https://web.archive.org/web/20080824094836/http://www.mythago.net/svn_for_backup.html
+
+
+- removing linux 9DEBIAN) non necessary system services
+https://linuxhint.com/disable_unnecessary_services_debian_linux/
+https://www.tecmint.com/remove-unwanted-services-from-linux/
+
+
+- ...of minimal lxqr DE debian instalation
+https://www.reddit.com/r/debian/comments/gstdqx/minimal_debian_with_lxqtcore/?rdt=40920&onetap_auto=true&one_tap=true
+https://gitlab.com/dwarmstrong/debian-after-install
+best > https://www.dwarmstrong.org/minimal-debian/
+oficial guides 
+https://wiki.debian.org/ReduceDebian
+https://wiki.debian.org/Microcode
+https://www.debian.org/doc/manuals/securing-debian-manual/ch03s05.en.html
+
+- system process monitors - elec
+
+https://github.com/QuentiumYT/Stacer - full gui elec app of sys ps ****
+https://github.com/romslf/system-companion - full gui elec app of sys ps
+	https://github.com/oxdev03/pm2.web/tree/master - PM2 + System proccesses a single app ***
+https://github.com/eshengsky/pm2-server-monitor - PM2 only process managers:
+https://github.com/nojsja/electron-re/tree/master *** - elec frameowrk of build elec sys PS gui apps  (igual é o xterm.js para console based apps)
+
+
+
+
+
+
+outros--------------------------------------------------------
+	
+	https://github.com/el3um4s/run-vbscript - run vbscript in nodejs (vbs = html5 system env runtime )
+	- microcode pkgs - a full elec based A free and open source code snippets manager for developers
+	https://github.com/massCodeIO/massCode/tree/master
+	- elec wifi man GUI app 
+	https://github.com/vterm/vterm/blob/master/package.json s ja com integracao electron
+
+---------------------------------------------------------------\
+
+
+- microcode CLISS: microcoddee = firmware lightweight updaters for cpu
+
+	needrestart/stable 3.6-4+deb12u1 all
+	check which daemons need to be restarted after library upgrades
+	amd64-microcode/stable 3.20230808.1.1~deb12u1 amd64
+	Processor microcode firmware for AMD CPUs
+
+	firm-phoenix-ware/stable 4.7.5+repack-2 all
+	firmware necessary for boxes issued by project PHOENIX
+
+	firmware-amd-graphics/stable 20230210-5 all
+	Binary firmware for AMD/ATI graphics chips
+
+	firmware-ast/stable 20140808-7 all
+	Binary firmware for ASpeed Technologies graphics chips
+
+	firmware-misc-nonfree/stable,now 20230210-5 all [installed]
+	Binary firmware for various drivers in the Linux kernel
+
+	intel-microcode/stable,stable-security,now 3.20231114.1~deb12u1 amd64 [installed]
+	Processor microcode firmware for Intel CPUs
+
+	iucode-tool/stable,now 2.3.1-3 amd64 [installed,automatic]
+	Intel processor microcode tool
+	
+	interesantiii >
+	https://packages.debian.org/bullseye/microcode.ctl
+
+
+/usr/share/base-files/
+
+
+$RSP_PROJ_FSYS/etc
+
+	$RSP_PROJ_FSYS/etc/rsp/ /etc;
+	$RSP_PROJ_FSYS/etc/xdg/* /etc/xdg;
+	$RSP_PROJ_FSYS/etc/skel/* /etc/skel;
+	$RSP_PROJ_FSYS/etc/
+	$RSP_PROJ_FSYS/etc/
+
+$RSP_PROJ_FSYS/usr
+
+	$RSP_PROJ_FSYS/usr/lib/*  /usr/lib;
+	$RSP_PROJ_FSYS/usr/bin/*  /usr/bin;
+	$RSP_PROJ_FSYS/usr/sbin/* /usr/sbin;
+
+		$RSP_PROJ_FSYS/usr/share/
+
+			$RSP_PROJ_FSYS/usr/share/icons/
+
+				$RSP_PROJ_FSYS/usr/share/icons/Adwaita/* /usr/share/icons/Adwaita;
+				$RSP_PROJ_FSYS/usr/share/icons/default/* /usr/share/icons/default;
+				$RSP_PROJ_FSYS/usr/share/icons/hicolor/* /usr/share/icons/hicolor;
+				$RSP_PROJ_FSYS/usr/share/icons/vendor/* /usr/share/icons/vendor;
+				$RSP_PROJ_FSYS/usr/share/icons/desktop-base/* /usr/share/icons/desktop-base;
+
+
+			$RSP_PROJ_FSYS/usr/share/desktop-base/
+
+				$RSP_PROJ_FSYS/usr/share/desktop-base/profiles/* /usr/share/desktop-base/profiles; # profiles default of xfce4 desktop basics
+				$RSP_PROJ_FSYS/usr/share/desktop-base/debian-logos/* /usr/share/desktop-base/debian-logos; # debian logos modifications
+				$RSP_PROJ_FSYS/usr/share/desktop-base/emerald-theme/* /usr/share/desktop-base/emerald-theme; # emerald theme modifications; active-theme is a symlink to it
+				$RSP_PROJ_FSYS/usr/share/desktop-base/grub_backgroud.sh /usr/share/desktop-base; # grub background script symlink to active-theme/grub/grub_background.sh
+
+			$RSP_PROJ_FSYS/usr/share/backgrounds/* /usr/share/backgrounds; # set backgrounds default of rspos
+
+sudo cp -rf 
+
+
+	/etc/rsp/asset/package/
+
+		sudo /etc/rsp/asset/package/aiterm/install.sh;
+		sudo gdebi /etc/rsp/asset/package/cubic_2024.02-86.deb;
+
+	/etc/rsp/project/
+
+		# installs rsp debian remastered system default apps
+		/etc/rsp/project/rsp.Hyper.deb/dist/rsp.Hyper.deb
+		/etc/rsp/project/rsp.Qvmxf.deb/dist/rsp.Qvmxf.deb
+		/etc/rsp/project/rsp.Chroxf.deb/dist/rsp.Chroxf.deb
+		/etc/rsp/project/rsp.Sublxf.deb/dist/rsp.Sublxf.deb
+		/etc/rsp/project/rsp.Codexf.deb/dist/rsp.Codexf.deb
+		/etc/rsp/project/rsp.Spotxf.deb/dist/rsp.Spotxf.deb
+		/etc/rsp/project/rsp.Greeter.deb/dist/rsp.Greeter.deb
+
+		# installs rsp.myApps flatpak package
+		/etc/rsp/project/rsp.myApps.pak/dist/rsp.myApps.pak/install.sh
+
+
+		/etc/rsp/project/rsp.Hyper.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Qvmxf.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Chroxf.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Sublxf.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Codexf.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Spotxf.deb/asset/backup/* 
+		/etc/rsp/project/rsp.Greeter.deb/asset/backup/*
+
+os-prober/  
+os-probes/
+os-release/  
+
+
+hook de auto alias .appimages instaladas em .local/apps para .local/bin sem sufixxo .appimage
+hook diretamente implementado no myApps ou watcher da bindir por .appimage
+ajeitar greeter para sempre da focus no input pass, 
+tirar o botao opcional de login (so no enter)
+e tirar efeito de foco, deixar cursoor tecloado invisivel
+setup de instalar fontes com font-manager CLI on /home/rsp/@space/frontend/nimbus-roman-no9-l/
+
+INDO - cli de documentação/manual autogerada por ai em realtime para todas as bins e/ou asset's
+INDO - Como setar pasta padrão de wallpapers de sistema
+INDO - atualizar packages novos apt xterm, 
+INDO - ordem do manual
+INDO - subtask de deixar os bins novos executaveis
+INDO - deixar tema desktop base rsp (copia do emerald)
+    - e ecluir os outros
+	- a relacao da altercao com a misconfig do desktop-base (Grub e default greeter)
+INDO - mudar a pasta padrao de screenshot
+INDO - service sistema limpeza de cache
+INDO - servico limpeza de disco
+INDO - sercido autidação de sistema
+INDO - SISTEM SERVICE DE LIMPAR TRASH
+INDO - default video viwer, ver um playerzin em electron
+INDO - script setup de auto instal sys.apps/debult em setup e eiminar os equivalentes
+INDO - ACCOMPLISH REMOVALS SETUP
+	- not them all for now
+INDO - * useradd e adduser = wrapper ou ln de rsp.userify
+INDO *** - skellll atualizr e o skel permanentemente 
+	* (dps de fazer o setup xfce padrao, 
+		no que der uma parte nos assets de sistema, 
+		a outra que nao der, 
+			como arquivos de template de var replacement)
+			
+plugin code de autoupdate path calls
+
+- talvez usar o subversion offline para o worker de backup e manifest de userdir  
+
+- o .config/rsp.Config/settings.js vai ser o source do app rsp.Config
+	- que pode ser particionado em sub aplicacoes de configuracao
+		- q vamos fazer com aquele framework electron de json para userconf GUI
+
+
+- testar no host > lançar v007
+
+   INDO - script setup de removals
+
+	/usr/share/backgrounds/xfce/*.jpg|*.png
+		- é a pasta onde ficam os backgrounds default do sistema usado pelo setting app default da DE
+		- usando um app settings default da nossa cross-DE poderiam ser armazenados em outro canto
+		- * e poderia-se eiliminar esse asset
+
+	/usr/share/xfce4/helpers/*
+		- aparentemente uma pasta de .desktop files fantasmas
+		- cuja falta daria apenas em um XFCE4 full 
+		- ...visto que estamos usando a versão minimal da XFCE4 
+		- ...iniciada a partir de uma instalação server [só terminal]
+		* testar sem (C BACKUP)
+
+	/usr/share/xfce4/panel/plugins/*
+		- parece ser uma pasta de implementação deprecated
+		- da mesma forma que o  /usr/share/xfce4/helpers/* (ou não)
+		- ...mas mesmo assim parece deprecated.
+		* testar sem (C BACKUP)
+
+	/usr/share/xfce4/applications/defaults.list (which is a link to) /etc/xfce4/defaults.list
+		- parece ser uma pasta de implementação deprecated
+		- da mesma forma que o /usr/share/xfce4/helpers/* (ou não)
+		- ...mas mesmo assim parece deprecated.
+		* testar sem (C BACKUP)

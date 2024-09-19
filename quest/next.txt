@@ -1,0 +1,25 @@
+- terminar rsp.netman
+    
+- coisar para quando abrir um app primeiro abrir a janela existente se tiver
+- coisar sanbozar o .var/it...gearler to .config/rsp/rsp.myApps
+- isolar configs de apps de systema na .config para ./config/rsp/ namespace 
+    - e por as @space/setup lá tipo rsp.user.setup
+- preciso de um hook system-wide que assista quando um user logar, para nao ter que expor os script core na pasta de usuario.
+        e dale 
+                - $HOME/.rsp/auditSpaceDir.sh;
+                - $HOME/.rsp/updateXdgUserDirs.sh;
+                - $HOME/.rsp/updateSpaceBackendModules.sh
+
+- UM WISARD inicial de usuario pra confis de ssh github e google
+        - se nao tem conta, 
+                - criar
+        - ao entra na conta
+                - se for nova
+                - aplica wizard inicial
+                                - seta aiterm
+                                - seta o github do cara user wyde pra integrar nos @proj vscode
+                                - seta o google so pra integra com android
+                                        * talvez o chrome portablea aquele projeto de conta de manter tudo no bacjup
+                                        ... e pra integrar o sistema usar senha de app e fazer o app sei la
+                - se nao for nova
+                        - carrega as configs salvas do usuario na nubre o en el pendrive
