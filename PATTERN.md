@@ -24,6 +24,7 @@
 ### pattern:
 
     <appname>sp
+            rsp-<appname>sp (symlink)
 
 ## Compositor de janelas
 
