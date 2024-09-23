@@ -23,7 +23,7 @@
 
 ### pattern:
 
-<appname>sp
+    <appname>sp
 
 - Compositor de janelas
 
