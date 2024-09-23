@@ -27,39 +27,35 @@
 
 - Compositor de janelas
 
-$ wmsp (binary)
-$ rsp-wmsp (symlink)
+    $ wmsp (binary)
+    $ rsp-wmsp (symlink)
 
-/wmsp.cc (project directory)
+    /wmsp.cc (project directory)
 
 - Barra fixa de topo
 
-$ barsp
-$ rsp-barsp (symlink)
+    $ barsp (binary)
+    $ rsp-barsp (symlink)
 
-/barsp.cc (project directory)
+    /barsp.cc (project directory)
 
 - Painel de dock
 
-$ pnsp
+    $ pnsp (binary)
+    $ rsp-pnsp (symlink)
 
-$ rsp-pnsp (symlink)
-
-/pnsp.cc (project directory)
+    /pnsp.cc (project directory)
 
 - Servico de background settlement
 
-$ bgmsp
+    $ bgmsp (binary)
+    $ rsp-bgmsp (symlink)
 
-$ rsp-bgmsp (symlink)
-
-/bgmsp.cc (project directory)
+    /bgmsp.cc (project directory)
 
 - Servico de desktop surface directory
 
-$ dsfsp
-$
+    $ dsfsp (binary)
+    $ rsp-dsfsp (symlink)
 
-rsp-dsfsp (symlink)
-
-/dsfsp.js (project directory)
+    /dsfsp.js (project directory)
