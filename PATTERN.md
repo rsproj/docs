@@ -28,7 +28,6 @@ rsp-<app-name>
 - Compositor de janelas
 
 $ wmsp (binary)
-
 $ rsp-wmsp (symlink)
 
 /wmsp.cc (project directory)
@@ -36,7 +35,6 @@ $ rsp-wmsp (symlink)
 - Barra fixa de topo
 
 $ barsp
-
 $ rsp-barsp (symlink)
 
 /barsp.cc (project directory)
@@ -60,7 +58,8 @@ $ rsp-bgmsp (symlink)
 - Servico de desktop surface directory
 
 $ dsfsp
+$
 
-$ rsp-dsfsp (symlink)
+rsp-dsfsp (symlink)
 
 /dsfsp.js (project directory)
