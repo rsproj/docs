@@ -1,27 +1,27 @@
 # @rsp - Services Manager/Units
 
-## pattern:
+### pattern:
 
 rsp.service <serviceName>
-ssp.<serviceName> (symlink)
+    ssp.<serviceName> (symlink)
 
 # @rsp - CLI Native Applications suite
 
-## pattern:
+### pattern:
 
 rsp.<namespace>.<appName>
-rsp.<appName> (symlink)
-<appName> (symlink)
+    rsp.<appName> (symlink)
+        <appName> (symlink)
 
 # @rsp - Desktop Native Applications suite
 
-## pattern:
+### pattern:
 
-rsp-<app-name>
+    rsp-<app-name>
 
 # @rsp - Desktop Environment Core Software Kit
 
-## pattern:
+### pattern:
 
 <appname>sp
 
