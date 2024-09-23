@@ -24,39 +24,34 @@
 ### pattern:
 
     <appname>sp
-            rsp-<appname>sp (symlink)
+        rsp-<appname>sp (symlink)
 
 ## Compositor de janelas
 
     wmsp
-        rsp-wmsp (symlink)
-
+    rsp-wmsp
     /wmsp.cc (project directory)
 
 ## Barra fixa de topo
 
     barsp
-        rsp-barsp (symlink)
-
+    rsp-barsp
     /barsp.cc (project directory)
 
 ## Painel de dock
 
     pnsp
-        rsp-pnsp (symlink)
-
+    rsp-pnsp
     /pnsp.cc (project directory)
 
 ## Servico de background settlement
 
     bgmsp
-        rsp-bgmsp (symlink)
-
+    rsp-bgmsp
     /bgmsp.cc (project directory)
 
 ## Servico de desktop surface directory
 
     dsfsp
-        rsp-dsfsp (symlink)
-
+    rsp-dsfsp
     /dsfsp.js (project directory)
