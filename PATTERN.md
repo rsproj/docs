@@ -41,8 +41,7 @@ $ rsp-barsp (symlink)
 
 - Painel de dock
 
-$ pnsp
-
+$ pnsp _
 $ rsp-pnsp(symlink)
 
 /pnsp.cc (project directory)
