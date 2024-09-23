@@ -2,8 +2,7 @@
 
 ### pattern:
 
-    rsp.service <serviceName>
-        ssp.<serviceName> (symlink)
+    rsp.sys.serviceManager <serviceName>.ssp
 
 # @rsp - CLI Native Applications suite
 
