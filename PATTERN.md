@@ -1,33 +1,34 @@
-# @rsp - Services Manager/Units ################
+# @rsp - Services Manager/Units
 
 ## pattern:
 
-    rsp.service <serviceName>
-        ssp.<serviceName> (symlink)
+rsp.service <serviceName>
+ssp.<serviceName> (symlink)
 
-# @rsp - CLI Native Applications suite #########
-
-## pattern:
-
-    rsp.<namespace>.<appName>
-        rsp.<appName> (symlink)
-            <appName> (symlink) 
-
-# @rsp - Desktop Native Applications suite #####
+# @rsp - CLI Native Applications suite
 
 ## pattern:
 
-    rsp-<app-name>
+rsp.<namespace>.<appName>
+rsp.<appName> (symlink)
+<appName> (symlink)
 
-# @rsp - Desktop Environment Core Software Kit #
+# @rsp - Desktop Native Applications suite
 
 ## pattern:
-    
-    <appname>sp
+
+rsp-<app-name>
+
+# @rsp - Desktop Environment Core Software Kit
+
+## pattern:
+
+<appname>sp
 
 - Compositor de janelas
 
 $ wmsp (binary)
+
 $ rsp-wmsp (symlink)
 
 /wmsp.cc (project directory)
@@ -35,20 +36,23 @@ $ rsp-wmsp (symlink)
 - Barra fixa de topo
 
 $ barsp
+
 $ rsp-barsp (symlink)
 
 /barsp.cc (project directory)
 
 - Painel de dock
 
-$ pnsp _
-$ rsp-pnsp(symlink)
+$ pnsp
+
+$ rsp-pnsp (symlink)
 
 /pnsp.cc (project directory)
 
 - Servico de background settlement
 
 $ bgmsp
+
 $ rsp-bgmsp (symlink)
 
 /bgmsp.cc (project directory)
@@ -56,8 +60,7 @@ $ rsp-bgmsp (symlink)
 - Servico de desktop surface directory
 
 $ dsfsp
+
 $ rsp-dsfsp (symlink)
 
 /dsfsp.js (project directory)
-
-
