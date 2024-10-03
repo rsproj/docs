@@ -163,28 +163,28 @@ sudo cp -rf
 		sudo /etc/rsp/asset/package/aiterm/install.sh;
 		sudo gdebi /etc/rsp/asset/package/cubic_2024.02-86.deb;
 
-	/etc/rsp/project/
+	/etc/rsproj/
 
 		# installs rsp debian remastered system default apps
-		/etc/rsp/project/rsp.Hyper.deb/dist/rsp.Hyper.deb
-		/etc/rsp/project/rsp.Qvmxf.deb/dist/rsp.Qvmxf.deb
-		/etc/rsp/project/rsp.Chroxf.deb/dist/rsp.Chroxf.deb
-		/etc/rsp/project/rsp.Sublxf.deb/dist/rsp.Sublxf.deb
-		/etc/rsp/project/rsp.Codexf.deb/dist/rsp.Codexf.deb
-		/etc/rsp/project/rsp.Spotxf.deb/dist/rsp.Spotxf.deb
-		/etc/rsp/project/rsp.Greeter.deb/dist/rsp.Greeter.deb
+		/etc/rsproj/rsp.Hyper.deb/dist/rsp.Hyper.deb
+		/etc/rsproj/rsp.Qvmxf.deb/dist/rsp.Qvmxf.deb
+		/etc/rsproj/rsp.Chroxf.deb/dist/rsp.Chroxf.deb
+		/etc/rsproj/rsp.Sublxf.deb/dist/rsp.Sublxf.deb
+		/etc/rsproj/rsp.Codexf.deb/dist/rsp.Codexf.deb
+		/etc/rsproj/rsp.Spotxf.deb/dist/rsp.Spotxf.deb
+		/etc/rsproj/rsp.Greeter.deb/dist/rsp.Greeter.deb
 
 		# installs rsp.myApps flatpak package
-		/etc/rsp/project/rsp.myApps.pak/dist/rsp.myApps.pak/install.sh
+		/etc/rsproj/rsp.myApps.pak/dist/rsp.myApps.pak/install.sh
 
 
-		/etc/rsp/project/rsp.Hyper.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Qvmxf.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Chroxf.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Sublxf.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Codexf.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Spotxf.deb/asset/backup/* 
-		/etc/rsp/project/rsp.Greeter.deb/asset/backup/*
+		/etc/rsproj/rsp.Hyper.deb/asset/backup/* 
+		/etc/rsproj/rsp.Qvmxf.deb/asset/backup/* 
+		/etc/rsproj/rsp.Chroxf.deb/asset/backup/* 
+		/etc/rsproj/rsp.Sublxf.deb/asset/backup/* 
+		/etc/rsproj/rsp.Codexf.deb/asset/backup/* 
+		/etc/rsproj/rsp.Spotxf.deb/asset/backup/* 
+		/etc/rsproj/rsp.Greeter.deb/asset/backup/*
 
 os-prober/  
 os-probes/
