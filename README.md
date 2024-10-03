@@ -1,10 +1,10 @@
 # What is for this repository?
 
-Provide project's explanation
-Provide project's structure documentation
-Provide project's questlogs, coming features and features
+1. Provide project's explanation
+2. Provide project's structure documentation
+3. Provide project's questlogs, coming features and features
 
-	Project name: rsproj - 
+	@rsproj
 
 	{ Another project of..
 		minimalist Operation System (Linux Distro) 
@@ -14,13 +14,13 @@ Provide project's questlogs, coming features and features
 						Node.js + qt + Wayland + HTML 
 	}
 
-## Repositrios first-level
+## - First-level Repositories
 
 1. core - (fsys prefefinitions, system setup scripts, patchers)
 2. docs - this repository (entry point)
 3. wsps - devel vscode workspace files
 
-## Repositorios namespaceds
+## - Namespaceds Repositories
 
 apps_*
 
