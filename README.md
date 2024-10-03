@@ -4,7 +4,14 @@ Provide project's explanation
 Provide project's structure documentation
 Provide project's questlogs, coming features and features
 
-	* Project name: rsproj
+	Project name: rsproj - 
+
+	Anothe project of..
+		minimalist Operation System (Linux Distro) 
+			user and developer friendly
+				with integration of...
+				nowdays technologies:
+					Node.js + qt + Wayland + HTML
 
 ## Repositrios first-level
 
