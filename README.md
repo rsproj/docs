@@ -6,12 +6,12 @@ Provide project's questlogs, coming features and features
 
 	Project name: rsproj - 
 
-	Anothe project of..
+	[ Another project of..
 		minimalist Operation System (Linux Distro) 
 			user and developer friendly
 				with integration of...
 				nowdays technologies:
-					Node.js + qt + Wayland + HTML
+					Node.js + qt + Wayland + HTML }
 
 ## Repositrios first-level
 
