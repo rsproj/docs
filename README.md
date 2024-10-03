@@ -3,23 +3,8 @@
 Provide project's explanation
 Provide project's structure documentation
 Provide project's questlogs, coming features and features
-abordagens abortadas e documentadas
-preficacao de apps bons libs e scrpts e servicos apps root apps musthav apps issoaqlo
 
-script setup que sincronize pasta home com o etc skel seletivamente 
-completa de bota os script de setup de 
-	servicos
-	... e de libs
-	fazer funfa o gvs lib q compilei no thunarr
-#
-
-#
-
-#
-
- e 
-
-Project name: rsproj
+	* Project name: rsproj
 
 ## Repositrios first-level
 
